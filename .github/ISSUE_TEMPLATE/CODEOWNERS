@@ -1,0 +1,15 @@
+# ==========================================================
+# CODEOWNERS · Plantilla SENA (reemplaza <ORG> y pNN)
+# La última regla que coincide con la ruta es la que prevalece.
+# ==========================================================
+ 
+# 1. Regla general: el líder del proyecto o el instructor
+*                      @orgProyectosAdso3229426/Arka @orgProyectosAdso3229426/instructores
+ 
+# 2. Código fuente y documentación
+/src/                  @orgProyectosAdso3229426/Arka @orgProyectosAdso3229426/instructores
+/docs/                 @orgProyectosAdso3229426/Arka  @orgProyectosAdso3229426/instructores
+ 
+# 3. Configuración del flujo: SOLO el instructor
+/.github/             @orgProyectosAdso3229426/instructores
+/docs/rubrica-evaluacion.md  @orgProyectosAdso3229426/instructores
